@@ -1,0 +1,18 @@
+model: openai/gpt-4o-mini
+title: GCP Lessons
+
+contents:
+  - title: GCP pub/sub
+    prompt: lesson1.md
+  - title: Create a VM
+    prompt: lesson2.md
+
+mcpServers:
+
+  date:
+    transport: stdio
+    command: date
+
+  ls:
+    transport: stdio
+    command: ls
