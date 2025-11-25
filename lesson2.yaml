@@ -1,0 +1,18 @@
+model: openai/gpt-4o-mini
+title: Lesson 2
+
+system_prompt: lesson2.md
+
+initial_message: >2
+  Hi there! I’m your learning coach. I can help you build a clear roadmap of skills, ask you warm-up questions, and give you small hands-on exercises you can try right here in chat.
+  To get started, ask me what tools do you have that I can learn about.
+
+mcpServers:
+
+  date:
+    transport: stdio
+    command: date
+
+  ls:
+    transport: stdio
+    command: ls
